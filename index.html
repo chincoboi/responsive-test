@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon-32x32 (1).png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <title>Responsive Page</title>
+</head>
+<body>
+    <main>
+        <div class="row">
+            <div class="left">
+                <h1>Learn to code by watching others</h1>
+                <p>See how experienced developers solve
+                    problems in real-time.
+                    Watching scripted tutorials is great, but
+                    understanding how developers think is 
+                    invaluable.
+                </p>
+            </div>
+            <div class="left">
+                <button class="top-btn"><span>Try if free 7 days</span> then 
+                    $20/mo. thereafter
+                </button>
+                <div class="form">
+                    <form >
+                        <input type="text" name="name" placeholder="First Name"  id="contact-fname">
+                        <div class="clr-Msg">First Name cannot be empty</div>
+                        <input type="text" name="name" placeholder="Last Name" id="contact-lname">
+                        <div class="clr-Msg">Last Name cannot be empty</div>
+                        <input type="email" name="email" placeholder="Email Address" id="contact-email">
+                        <div class="clr-Msg">Looks like this is not an email</div>
+                        <input type="password" name="password" placeholder="Password"  id="contact-password">
+                        <div class="clr-Msg">Password cannot be empty</div>
+                        <input type="submit" value="CLAIM YOUR FREE TRAIL" onclick="validateName()" class="button">
+                    </form>
+                    <p>By clicking the button, you agreeing to our <span>Terms and Services</span></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="form.js"></script>
+</body>
+</html>
