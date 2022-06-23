@@ -1,3 +1,3 @@
 # chincoboi.github.io
 Responsive-Test
-https://chincoboi.github.io/
+https://chincoboi.github.io/responsive-test/
